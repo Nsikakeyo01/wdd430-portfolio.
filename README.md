@@ -1,36 +1,71 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# WDD 430 – Next.js Portfolio
 
-## Getting Started
+## About This Project
 
-First, run the development server:
+This is my personal portfolio website developed for the WDD 430 Web Full-Stack Development course at BYU-Idaho.
+
+The website introduces me, showcases my programming projects, and highlights my technical skills.
+
+## Live Website
+
+https://wdd430-portfolio-one-xi.vercel.app
+
+## GitHub Repository
+
+https://github.com/Nsikakeyo01/wdd430-portfolio.
+
+## Features
+
+- Responsive Home page with two programming projects
+- About page with my biography and technical skills
+- Reusable Header, Footer, ProjectCard, ProjectList, and SkillCard components
+- TypeScript interfaces for component properties
+- Tailwind CSS styling
+- Next.js API endpoint at `/api/hello`
+
+## Technologies Used
+
+- Next.js
+- React
+- TypeScript
+- Tailwind CSS
+- Git and GitHub
+- Vercel
+
+## Portfolio Projects
+
+### JavaScript Quiz App
+
+An interactive quiz application for testing knowledge and learning programming concepts.
+
+### Task Manager
+
+A simple application for organizing daily tasks and improving productivity.
+
+## Custom Component
+
+**SkillCard.tsx** is a reusable Server Component that displays a technical skill and its description. It uses a TypeScript interface for its props and Tailwind CSS for styling.
+
+## Running the Project Locally
+
+Install dependencies:
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+npm install
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Start the development server:
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+```bash
+npm run dev -- --webpack
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+Open http://localhost:3000.
 
-## Learn More
+## Author
 
-To learn more about Next.js, take a look at the following resources:
+Nsikak Eyo
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Software Development Student | BYU-Idaho
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+GitHub: https://github.com/Nsikakeyo01
