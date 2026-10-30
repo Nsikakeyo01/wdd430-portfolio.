@@ -3,8 +3,7 @@ export default function Footer() {
     return (
         <footer className="bg-blue-900 px-6 py-6 text-center text-white">
             <p className="text-sm">
-                © {new Date().getFullYear()} Nsikak Eyo.
-                All rights reserved.
+                © 2026 Nsikak Eyo. All rights reserved.
             </p>
 
             <p className="mt-2 text-sm">
